@@ -1,6 +1,8 @@
 # Informe Laboratorio: La raíz que se esconde
 
-
+Asignatura: Computación Numérica S2 [INF321].
+Integrantes: Cristobal Aguilera.
+Fecha: 9 de septiembre 2026.
 
 ## Preguntas del Convergencia
 
