@@ -4,9 +4,9 @@
 * Integrantes: Cristobal Aguilera.
 * Fecha: 9 de septiembre 2026.
 
-## Preguntas del Convergencia
+## 1.Preguntas del Convergencia
 
-### 3.1 ¿Qué método convergió en menos iteraciones en cada función?¿Por qué?
+### 1.1.¿Qué método convergió en menos iteraciones en cada función?¿Por qué?
 
 El método que convergió en menos iteraciones fue el Newton-Raphson en sus dos versiones, como se ve a continuación:
 
@@ -18,14 +18,14 @@ El método que convergió en menos iteraciones fue el Newton-Raphson en sus dos 
 Esto de debe a que Newton-Raphson usa la pendiente exacta de la curva, y debido a eso en una raíz simple el número de digitos correctos se duplicar al aumentar los paso, o en otras palabras tiene convergencia cuadrática.
 
 
-### 3.2 ¿Qué orden de convergencia tiene cada método y cómo se refleja en el gráfico |error| vs iteración?
+### 1.2.¿Qué orden de convergencia tiene cada método y cómo se refleja en el gráfico |error| vs iteración?
 
 
 
 
 
 
-### 3.3 ¿Qué métodos requieren un intervalo con cambio de signo y cuáles no?
+### 1.3.¿Qué métodos requieren un intervalo con cambio de signo y cuáles no?
 
 Los métodos que requiren un intervalo con cambio de signo son los denominados **métodos cerrado**, los cuáles son:
 * Método de bisección.
@@ -40,10 +40,10 @@ Los métodos que **NO** requieren un intervalo con cambio de signo son los denom
 
 Parten de una estimación (o dos) y no necesitan encerrar la raíz, pero estos no garantizan una convergencia. 
 
-### 3.4 En la función que toca el eje x (raíz doble): ¿qué métodos fallan o no aplican y cuál se comporta mejor?
+### 1.4.En la función que toca el eje x (raíz doble): ¿qué métodos fallan o no aplican y cuál se comporta mejor?
 
-### 3.5 ¿Cómo influyen el intervalo inicial y la estimación inicial en las iteraciones y en la convergencia?
+### 1.5.¿Cómo influyen el intervalo inicial y la estimación inicial en las iteraciones y en la convergencia?
 
-### 3.6 ¿Qué método recomiendan según el tipo de función (velocidad vs robustez)?
+### 1.6.¿Qué método recomiendan según el tipo de función (velocidad vs robustez)?
 
-## Conclusión
+## 2.Conclusión
