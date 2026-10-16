@@ -8,7 +8,18 @@ Fecha: 9 de septiembre 2026.
 
 ### 3.1 ¿Qué método convergió en menos iteraciones en cada función?¿Por qué?
 
+El método que convergió en menos iteraciones fue el Newton-Raphson en sus dos versiones, como se ve a continuación:
+
+- **x³ − x − 2, e^(−x) − x, √x − cos(x):** Newton-Raphson y Newton mejorado (2 iteraciones).
+- **cos(x) − x:** Newton y Newton mejorado (3).
+- **ln(x) + x − 4:** empate entre secante, Newton y Newton mejorado (3).
+- **(x − 2)²:** Newton mejorado, con **1** iteración.
+
+Esto de debe a que Newton-Raphson usa la pendiente exacta de la curva, y debido a eso en una raíz simple el número de digitos correctos se duplicar al aumentar los paso, o en otras palabras tiene convergencia cuadrática.
+
+
 ### 3.2 ¿Qué orden de convergencia tiene cada método y cómo se refleja en el gráfico |error| vs iteración?
+
 
 ### 3.3 ¿Qué métodos requieren un intervalo con cambio de signo y cuáles no?
 
